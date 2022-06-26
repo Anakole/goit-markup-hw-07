@@ -26,7 +26,7 @@
 }
 
 .about__text {
-  @include font($lh: 1.7);
+  @include font(null, null, 1.7, null);
   color: var(--text-color);
 }
 
