@@ -8,23 +8,10 @@
 }
 
 .about__box {
-  background-color: $light-backgound;
+  background-color: var(--light-backgound);
   margin-bottom: 30px;
   display: flex;
   height: 120px;
   align-items: center;
   justify-content: center;
-}
-
-.about__title {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.about__text {
-  line-height: 1.7;
-  color: $text-color;
 }

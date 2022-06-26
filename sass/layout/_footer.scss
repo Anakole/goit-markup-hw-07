@@ -1,7 +1,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: $dark-background;
+  background-color: var(--dark-background);
 }
 
 .footer .container {
@@ -14,26 +14,8 @@
   margin-right: 70px;
 }
 
-.footer__logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  margin-bottom: 20px;
-  color: $light-text-color;
-}
-
 .contacts {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.join__title {
-  color: $light-text-color;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 20px;
 }
 
 .footer-soc-list {
@@ -63,16 +45,16 @@
 
   &:hover,
   &:focus {
-    background-color: $accent-color;
+    background-color: var(--accent-color);
   }
 }
 
 .footer-soc-icon {
-  fill: $light-text-color;
+  fill: var(--light-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   .footer-soc-link:hover &,
   .footer-soc-link:focus & {
-    fill: $light-text-color;
+    fill: var(--light-text-color);
   }
 }

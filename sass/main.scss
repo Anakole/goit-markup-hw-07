@@ -1,12 +1,14 @@
 @import './utils/variables';
 @import './utils/common';
 @import './utils/hidden';
+@import './utils/mixins';
 
 @import './components/container';
 @import './components/text';
 @import './components/modal';
 @import './components/subscribe';
 @import './components/address';
+@import './components/logo';
 
 @import './layout/header';
 @import './layout/hero';

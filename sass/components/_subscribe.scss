@@ -7,7 +7,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: $light-text-color;
+  color: var(--light-text-color);
   margin-bottom: 20px;
 }
 
@@ -21,7 +21,7 @@
   height: 50px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  color: $light-text-color;
+  color: var(--light-text-color);
   font-size: 14px;
   letter-spacing: 1.7;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -31,7 +31,7 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus {
-    border-color: $accent-color;
+    border-color: var(--accent-color);
   }
 }
 
@@ -46,8 +46,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  color: $light-text-color;
-  background-color: $accent-color;
+  color: var(--light-text-color);
+  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
@@ -60,12 +60,12 @@
 
   &:hover,
   &:focus {
-    background: $accent-hover-color;
+    background: var(--accent-hover-color);
   }
 }
 
 .subscribe-icon {
-  fill: $main-background;
+  fill: var(--main-background);
   position: absolute;
   top: 50%;
   right: 28px;

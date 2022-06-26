@@ -34,8 +34,8 @@ img {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: $title-color;
-  background-color: $main-background;
+  color: var(--title-color);
+  background-color: var(--main-background);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
