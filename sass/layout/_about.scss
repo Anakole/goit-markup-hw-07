@@ -1,0 +1,30 @@
+.about__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__item {
+  width: 270px;
+}
+
+.about__box {
+  background-color: $light-backgound;
+  margin-bottom: 30px;
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.about__text {
+  line-height: 1.7;
+  color: $text-color;
+}

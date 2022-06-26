@@ -1,0 +1,32 @@
+.work {
+  padding-top: 0;
+}
+
+.pick-list {
+  display: flex;
+}
+
+.pick-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.pick-list__item-box {
+  position: relative;
+}
+
+.pick-list__text {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: $light-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  width: 370px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
